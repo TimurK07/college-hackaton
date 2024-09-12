@@ -1,4 +1,5 @@
 import './DownloadInfo.css';
+import ArrowRight from '../../img/ArrowRight.svg'
 
 function DownloadInfo() {
   return (
@@ -10,14 +11,14 @@ function DownloadInfo() {
             <p className="link__one__par">Приказ</p>
             <div className="link__one__download__block">
               <a className='link__one__download__block__btn' href="#">Скачать</a>
-              <img src="./img/arrow-right.svg" alt="" />
+              <img src={ArrowRight} alt="" />
             </div>
           </div>
           <div className="donwload__info__link__one link__one">
             <p className="link__one__par">Положение</p>
             <div className="link__one__download__block">
               <a className='link__one__download__block__btn' href="#">Скачать</a>
-              <img src="./img/arrow-right.svg" alt="" />
+              <img src={ArrowRight} alt="" />
             </div>
           </div>
         </div>

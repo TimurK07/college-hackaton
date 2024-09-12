@@ -20,7 +20,6 @@
   cursor: pointer;
 }
 
-
 .arrow:hover{
   rotate: 180deg;
   transition: 0.5s ease-in-out;

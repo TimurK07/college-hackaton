@@ -1,6 +1,8 @@
 import NavBar from "../NavBar/NavBar";
 import "./Header.css";
 
+import HeaderBg from '../../img/satpaev.png'
+
 function Header() {
   return (
     <div className="header">
@@ -17,7 +19,7 @@ function Header() {
             </button>
           </div>
           <div className='header__satpaev-img'>
-            <img src="./img/satpaev.png" alt="" />
+            <img src={HeaderBg} alt="logo " />
           </div>
         </div>
       </div>
