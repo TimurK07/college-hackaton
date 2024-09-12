@@ -2,7 +2,7 @@ import "./Register.css";
 
 function Register() {
   return (
-    <div className="register">
+    <div className="register" id='register'>
       <div className="register__container container">
         <h1 className="register__title">Регистрация</h1>
         <div className="register__input input__two">

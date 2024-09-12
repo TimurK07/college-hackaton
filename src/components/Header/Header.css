@@ -7,8 +7,6 @@
   background-size: cover;
 }
 
-
-
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -52,12 +50,8 @@
   background: #4ce976;
   text-align: center;
   cursor: pointer;
-
-  &:hover {
-    height: 55px;
-    transition: 0.3s ease-in;
-  }
 }
+
 
 .btn__text {
   color: #000;

@@ -36,6 +36,28 @@
   font-weight: 700;
 }
 
+
+.arrow__icon {
+  transition: transform 0.3s ease;
+}
+
+.link__one__download__block__btn:hover + .arrow__icon {
+  transform: rotate(45deg);
+}
+
+@media (hover:none) {
+    .arrow__icon {
+    transition: none;
+  }
+  
+  .link__one__download__block__btn:hover + .arrow__icon {
+    transform: rotate(0);
+  }
+  
+}
+
+
+
 @media (max-width: 768px) {
   .link__one__download__block__btn {
     font-size: 20px;
