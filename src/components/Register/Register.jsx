@@ -7,7 +7,7 @@ function Register() {
         <h1 className="register__title">Регистрация</h1>
         <div className="register__input input__two">
           <div className="input__register">
-            <div className="input__wrapper">
+            <div className="input__wrapper ">
               <div>
                 <p className="input__text">Название команды</p>
                 <input className="input" type="text" />
