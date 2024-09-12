@@ -17,7 +17,7 @@ function Header() {
             </button>
           </div>
           <div className='header__satpaev-img'>
-            <img src="./public/img/satpaev.png" alt="" />
+            <img src="./img/satpaev.png" alt="" />
           </div>
         </div>
       </div>
