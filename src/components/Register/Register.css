@@ -102,6 +102,13 @@
   }
 }
 
+@media (max-width: 375) {
+  .input {
+    max-width: 300px;
+  }
+  
+}
+
 @media (max-width: 320px) {
   .input__text {
     font-size: 16px;
@@ -116,4 +123,11 @@
   .register__title {
     font-size: 26px;
   }
+}
+
+@media (max-width: 300px) {
+  .input__register input {
+    width: 200px;
+  }
+  
 }
