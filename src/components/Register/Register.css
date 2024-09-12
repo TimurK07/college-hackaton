@@ -86,7 +86,7 @@
 
 @media (max-width: 425px) {
   .input {
-    max-width: 350px;
+    max-width: 340px;
   }
   
   .register__title {
@@ -107,7 +107,7 @@
     font-size: 16px;
   }
   .input {
-    max-width: 290px;
+    max-width: 280px;
   }
   
   .register__button {
