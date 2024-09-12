@@ -98,7 +98,8 @@
   }
 
   .register__button {
-    width: 300px;
+    width: 360px;
+    padding: 26px;
   }
 }
 
@@ -107,6 +108,9 @@
     max-width: 300px;
   }
   
+  .container {
+    padding: 0 15px
+  }
 }
 
 @media (max-width: 320px) {
@@ -123,11 +127,17 @@
   .register__title {
     font-size: 26px;
   }
+  .container {
+    padding: 0 15px
+  }
 }
 
 @media (max-width: 300px) {
   .input__register input {
     width: 200px;
+  }
+  .container {
+    padding: 0 15px
   }
   
 }
