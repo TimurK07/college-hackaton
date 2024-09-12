@@ -3,7 +3,7 @@
   justify-content: space-between;
   width: 100%;
   height: 935px;
-  background-image: url(../public/img/header__bg.png);
+  background-image: url(./img/header__bg.png);
   background-size: cover;
 }
 
