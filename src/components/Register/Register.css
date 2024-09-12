@@ -1,0 +1,119 @@
+.register {
+  margin-bottom: 100px;
+}
+
+.register__title {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+}
+
+.input__text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input__register input {
+  width: 600px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid #e3e3e3;
+  background: #fff;
+  font-size: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.input__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.register__button {
+  display: flex;
+  width: 357px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #e3e3e3;
+  background: #4ce976;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 36px;
+}
+
+
+
+@media (max-width: 1300px) {
+  .input {
+    max-width: 500px;
+  }
+  
+}
+@media (max-width: 1300px) {
+  .input {
+    max-width: 500px;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .input {
+    max-width: 400px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .input__wrapper {
+    flex-direction: column;
+  }
+  
+  .register__title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .input {
+    max-width: 350px;
+  }
+  
+  .register__title {
+    font-size: 30px;
+  }
+
+  .input__text {
+    font-size: 18px;
+  }
+
+  .register__button {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .input__text {
+    font-size: 16px;
+  }
+  .input {
+    max-width: 290px;
+  }
+  
+  .register__button {
+    width: 250px;
+  }
+  .register__title {
+    font-size: 26px;
+  }
+}

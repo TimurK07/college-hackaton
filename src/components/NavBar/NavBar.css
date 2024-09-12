@@ -1,0 +1,27 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.color-text {
+  color: #fff;
+}
+
+.language__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4ce976;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+
+.arrow:hover{
+  rotate: 180deg;
+  transition: 0.5s ease-in-out;
+}
