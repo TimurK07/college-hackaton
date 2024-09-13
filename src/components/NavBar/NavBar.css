@@ -20,4 +20,8 @@
   cursor: pointer;
 }
 
+.arrow {
+  transform: rotate(180deg);
+}
+
 
