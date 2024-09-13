@@ -130,7 +130,6 @@
   .hedaer__time {
     padding-bottom: 10px;
   }
-
 }
 
 @media (max-width: 525px) {
@@ -153,7 +152,7 @@
   .hedaer__time {
     padding-bottom: 40px;
   }
-  
+
   .hedaer__time:nth-last-child(1) {
     gap: 0;
     justify-content: space-around;
@@ -166,11 +165,11 @@
 
 @media (max-width: 525px) {
   .header__two__title p {
-    font-size: 12px;
+    font-size: 24px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .header__title {
     font-size: 30px;
   }
@@ -194,11 +193,15 @@
   .header__day {
     font-size: 18px;
   }
+
+  .header__two__title p {
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 320px) {
   .header__two__title p {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   .header__day {
