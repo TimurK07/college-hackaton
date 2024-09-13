@@ -9,7 +9,7 @@ function Header() {
       <div className="container">
         <NavBar />
         <div className="header__content">
-          <div className="header__info">
+          <div className="header__info header__info__desk">
             <p className="header__text">7-8 ноября • г.Павлодар</p>
             <h1 className="header__title">
               Республиканский <br /> хакатон
@@ -19,32 +19,19 @@ function Header() {
               </button>
             </a>
             </h1>
-            <Countdown/>
-            {/* <div className='header__two__title'>
-              <p>к 125-летию Каныша Сатпаева и дню цифровизации</p>
-              <div className='hedaer__time'>
-                  <div className='header__time__info'>
-                    <sapn>24</sapn>
-                    <sapn>дней</sapn>
-                  </div>
-                  <div className='header__time__info'>
-                    <sapn>24</sapn>
-                    <sapn>дней</sapn>
-                  </div>
-                  <div className='header__time__info'>
-                    <sapn>24</sapn>
-                    <sapn>дней</sapn>
-                  </div>
-                  <div className='header__time__info'>
-                    <sapn>24</sapn>
-                    <sapn>дней</sapn>
-                  </div>
-                  <div className='header__time__info'>
-                    <sapn>24</sapn>
-                    <sapn>дней</sapn>
-                  </div>
-              </div>
-            </div> */}
+            <Countdown/>  
+          </div>
+          <div className="header__info header__info__mobile">
+            <p className="header__text">7-8 ноября • г.Павлодар</p>
+            <h1 className="header__title">
+              Республиканский <br /> хакатон
+            </h1>
+            <Countdown/> 
+            <a href="#register" >
+              <button className="header__button btn__text">
+                Зарегистрироваться
+              </button>
+            </a> 
           </div>
           <div className="header__satpaev-img">
             <img src={HeaderBg} alt="logo " />
