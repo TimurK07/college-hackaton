@@ -37,19 +37,19 @@ const Countdown = () => {
       <div className='hedaer__time'>
         <div className='header__time__info'>
           <span>{timeLeft.days || 0}</span>
-          <span>дней</span>
+          <span className='header__day'>дней</span>
         </div>
         <div className='header__time__info'>
           <span>{timeLeft.hours || 0}</span>
-          <span>часов</span>
+          <span className='header__day'>часов</span>
         </div>
         <div className='header__time__info'>
           <span>{timeLeft.minutes || 0}</span>
-          <span>минут</span>
+          <span className='header__day'>минут</span>
         </div>
         <div className='header__time__info'>
           <span>{timeLeft.seconds || 0}</span>
-          <span>секунд</span>
+          <span className='header__day'>секунд</span>
         </div>
       </div>
     </div>
